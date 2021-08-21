@@ -13,10 +13,100 @@
 </head>
 
 <body>
-    <section class="container grid gird-cols-3 gap-4">
-        <div>five</div>
-        <div>five</div>
-    </section>
+    <main class="bg-gray-300">
+        <div class="container mx-auto px-4 md:px-2">
+            <div class="grid grid-cols-2 w-full rounded h-full object-cover">
+                <!-- image -->
+                <div class="p-5 border rounded border-gray-200 m-5">
+                    <div class="h-96 w-90">
+                        <img src="images/mac.png" class="w-full h-full" alt="">
+                    </div>
+                </div>
+                <!-- Options -->
+                <div class="container mt-10 max-w-lg mx-auto">
+                    <!-- Descriptions -->
+                    <div>
+                        <h1 class="font-bold text-4xl">Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        <p class="mt-4">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,
+                            7-core GPU,
+                            and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports
+                            Magic Mouse Magic Keyboard- US English</p>
+                    </div>
+                    <!-- Memory -->
+                    <div>
+                        <h3 class="font-bold mt-4">Memory</h3>
+                        <button id="memory-btn1"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100  rounded-lg">8GB
+                            unifien memory</button>
+                        <button id="memory-btn2"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100  rounded-lg">
+                            16GB unified memory</button>
+
+                    </div>
+                    <!-- Storage -->
+                    <div>
+                        <h3 class="font-bold mt-4">Storage</h3>
+                        <button id="storage-btn1"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100 md-2 rounded-lg">35
+                            SSD Storage</button>
+                        <button id="storage-btn2"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100 md-2 rounded-lg">512GB
+                            SSD Storage</button>
+                        <button id="storage-btn3"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100  rounded-lg">1TB
+                            SSD Storage</button>
+                    </div>
+                    <!-- Delivery -->
+                    <div>
+                        <h3 class="font-bold mt-4">Choose your delivery option</h3>
+                        <button id="delivery-btn1"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100 mb-2 rounded-lg">
+                            Friday, Aug 25 FREE Prime
+                            Delivery</button>
+                        &nbsp;&nbsp;
+                        <button id="delivery-btn2"
+                            class="hover:bg-gray-400 py-2 px-6 b border-4 border-light-blue-500 border-opacity-100  rounded-lg">Friday,
+                            Aug 21 Delivery charge $20</button>
+                    </div>
+                    <!-- Cost and Price -->
+                    <div>
+                        <div class="mt-6 ">
+                            <div class="mt-2 font-bold text-justify ">Best Price&nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                                $1299
+                            </div>
+                            <div class="mt-2 font-bold">Extra Memory Cost &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;$ <span
+                                    id="memory-cost">0</span>
+                            </div>
+                            <div class="mt-2 font-bold">Extra Storage Cost&nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;&nbsp;&nbsp;$<span id="storage-cost">0</span>
+                            </div>
+                            <div class="mt-2 font-bold">Delivery Charge
+                                &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                                &nbsp;&nbsp; &nbsp;$ <span id="delivery-cost">0</span> </div>
+                        </div>
+                        <hr class="line">
+                        <div class="mt-2 font-bold">Total Price &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;
+                            $ <span id="total-price">1299</span> </div>
+                    </div>
+                    <!-- Promo Code -->
+                    <div>
+                        <h3 class="mt-6 font-bold">Add Promo code</h3>
+                        <input type="text">
+                        <button class="bg-gradient-to-r from-green-400 to-blue-500 py-2 rounded px-6">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-0 text-center font-bold text-4xl">Total: $1299</div>
+    </main>
+
 
     <script src="js/index.js"></script>
 </body>
