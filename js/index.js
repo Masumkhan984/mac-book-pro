@@ -71,12 +71,3 @@ function totalPrice2() {
     const totalPrice1Text = document.getElementById('total-price');
     totalPrice2Text.innerText = totalPrice1Text.innerText;
 }
-
-/* Promo Code */
-const promoBtn = document.getElementById('promo-btn');
-promoCode.addEventListener('keyup', function (event) {
-    const promoCode = document.getElementById('promo-input');
-    if (promoCode.innerText == 'stevekaku') {
-
-    }
-})
