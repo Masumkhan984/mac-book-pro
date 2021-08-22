@@ -73,11 +73,10 @@ function totalPrice2() {
 }
 
 /* Promo Code */
-/*
 const promoBtn = document.getElementById('promo-btn');
 promoCode.addEventListener('keyup', function (event) {
-   const promoCode = document.getElementById('promo-input');
-   if(promoCode.innerText == 'stevekaku'){
+    const promoCode = document.getElementById('promo-input');
+    if (promoCode.innerText == 'stevekaku') {
 
-   }
-}) */
+    }
+})
